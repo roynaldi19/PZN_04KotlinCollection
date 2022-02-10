@@ -6,6 +6,9 @@ fun main() {
         "B" to "Ninja",
         "C" to "Jac"
     )
+    println(map)
+    println(map.keys)
+    println(map.values)
 
     for ((key, value) in map) {
         println("$key to $value")

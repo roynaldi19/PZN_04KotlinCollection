@@ -8,8 +8,7 @@ fun <T> displayCollection(collection: Collection<T>){
 
 fun main() {
     displayCollection(listOf("Roynaldi", "Kidd"))
-    displayCollection(setOf("Luffy", "Muhiwara"))
-
+    displayCollection(setOf("Luffy", "Mugiwara"))
 
 //    maps tidak bisa karna bukan tutunan colection
 //    displayCollection(mapOf("Roy" to "Jack"))

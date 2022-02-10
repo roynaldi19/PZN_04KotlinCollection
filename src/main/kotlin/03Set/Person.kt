@@ -1,7 +1,6 @@
 package `03Set`
 
 class Person(val name: String) {
-
     override fun hashCode(): Int {
         return name.hashCode()
     }

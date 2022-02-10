@@ -7,10 +7,9 @@ fun main() {
         "C" to "Jac"
     )
 
-    println(mutableMap.get("A"))
-    println(mutableMap.get("D"))
-    println(mutableMap.remove("B"))
-    println()
+    println(mutableMap["A"])
+    println(mutableMap["D"])
+    mutableMap.remove("B")
 
     for ((key, value) in mutableMap) {
         println("$key to $value")

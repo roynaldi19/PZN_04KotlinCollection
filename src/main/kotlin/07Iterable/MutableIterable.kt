@@ -7,7 +7,6 @@ fun <T> displayMutableIterable(iterable: MutableIterable<T>) {
         val value = iterator.next()
         println(value)
     }
-
 }
 
 fun main() {

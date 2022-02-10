@@ -5,10 +5,9 @@ fun main() {
         Person("Roy"),Person("Kidd"),Person("Roy"),Person("Kidd"),Person("Roy")
     )
 
-
     println(set.size)
     println(set.contains(Person("Kidd")))
-    println()
+    println(set.isEmpty())
 
     for (person in set) {
         println(person)

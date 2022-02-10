@@ -7,9 +7,8 @@ fun <T> displayMutableCollection(collection: MutableCollection<T>){
 }
 
 fun main() {
-    displayCollection(mutableListOf("Roynaldi", "Kidd"))
-    displayCollection(mutableSetOf("Luffy", "Muhiwara"))
-
+    displayMutableCollection(mutableListOf("Roynaldi", "Kidd"))
+    displayMutableCollection(mutableSetOf("Luffy", "Muhiwara"))
 
 //    maps tidak bisa karna bukan tutunan colection
 //    displayCollection(mapOf("Roy" to "Jack"))
