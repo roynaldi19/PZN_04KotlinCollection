@@ -1,4 +1,4 @@
-package `25RetrieveByPosition`
+package `24Windowed`
 
 fun main() {
     val range = (1..5).toList()
